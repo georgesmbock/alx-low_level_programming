@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main -Prints all posible combinaison of two
+ *main -prints all posible combinaison of two
  *Description: diferents digits in ascending order,sepated
- * by comma
- * return: 0
+ *by comma
+ *Return: 0
  */
 int main(void)
 {
