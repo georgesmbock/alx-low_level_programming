@@ -2,7 +2,7 @@
 
 /**
  * main -Prints all posible combinaison of two
- * diferents digits in ascending order,sepated
+ *Description: diferents digits in ascending order,sepated
  * by comma
  * return: 0
  */
