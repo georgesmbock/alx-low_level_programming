@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *putchar -Entry
+ *main -Entry
  *Description:This programm prints _putchar
  *Return:Alwyas 0
  */
-int putchar(void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
