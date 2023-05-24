@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ *print_alphabet_x10 - prints  alphabet 10 times
+ *-
+ *Return:Empty
+ */
+void print_alphabet_x10(void)
+{
+	int i;
+	int d;
+
+	for (d = 'a'; d <= 'z'; d++)
+		for (i = 0; i <= 10; i++)
+			_putchar(d);
+	_putchar('\n');
+}
