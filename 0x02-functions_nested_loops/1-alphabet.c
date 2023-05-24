@@ -5,7 +5,7 @@
  *-
  *Return: Nothing
  */
- void main()
+void main(void)
 {
 	int i;
 
