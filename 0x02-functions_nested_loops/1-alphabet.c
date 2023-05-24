@@ -1,4 +1,4 @@
-#incle "main.h"
+#include "main.h"
 
 /**
  *main - function that prints alphabet
