@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *print_times_table -done
+ *print_times_table - done
  *@n:integer
  *-
  *Return: nothing
