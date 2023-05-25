@@ -22,7 +22,7 @@ int main(void)
 			printf("%ld", c);
 
 			if (i != 49)
-				print(", ");
+				printf(", ");
 			b = a;
 			a = c;
 		}
