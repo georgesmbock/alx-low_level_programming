@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<string>
 
 /**
  * main - function
@@ -7,6 +9,7 @@
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	char s[100] = "\"Programming is like building a multilingual puzzle";
+	puts(s);
 	return (0);
 }
