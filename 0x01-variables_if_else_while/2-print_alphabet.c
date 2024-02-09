@@ -3,9 +3,9 @@
 /**
  * main - function
  * -
- * Return: nothing
+ * Return:0
  */
-void main(void)
+int main(void)
 {
 	char i;
 
@@ -13,4 +13,5 @@ void main(void)
 	{
 		putchar(c);
 	}
+	return (0);
 }
