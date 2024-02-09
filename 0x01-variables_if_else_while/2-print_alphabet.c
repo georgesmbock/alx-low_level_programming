@@ -7,10 +7,9 @@
  */
 void main(void)
 {
-	char c;
-	c = '0';
+	char i;
 
-	while ((c >= 'a') && (c <= 'z'))
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		putchar(c);
 	}
