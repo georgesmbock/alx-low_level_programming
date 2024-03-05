@@ -10,15 +10,13 @@ int main(void)
 	int n;
 
 	for (n = '0'; n <= '9'; n++)
+	{
+		putcha((n % 10) + '\0');
 		if (n == '9')
-		{
-			putchar('9' + '\0');
-		}
-		else
-		{
-			putchar(n + '\0');
-			putchar(',');
-			putchar(' ');
-		}
+			continue;
+		putchar(',');
+		putchar(' ');
+	}
+	putchar('\n');
 	return (0);
 }
