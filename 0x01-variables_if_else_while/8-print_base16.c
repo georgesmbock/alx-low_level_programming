@@ -3,9 +3,9 @@
 /**
  * main - function
  * -
- * Return:Nothing
+ * Return: 0
  */
-void main(void)
+int main(void)
 {
 	int i;
 
@@ -14,4 +14,6 @@ void main(void)
 	for (i = 'a'; i < 'g'; i++)
 		putchar(i + '\0');
 	putchar('\n');
+
+	return (0);
 }
