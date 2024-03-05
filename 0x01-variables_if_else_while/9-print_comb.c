@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  * -
- * Return: Nothing
+ * Return:0
  */
-void main(void)
+int main(void)
 {
 	int n;
 
