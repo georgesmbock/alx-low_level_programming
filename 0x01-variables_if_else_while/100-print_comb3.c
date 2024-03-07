@@ -13,6 +13,7 @@ int main(void)
 	while (n <= 56)
 	{
 		for (y = 49; y <= 57; y++)
+		{
 			if (n < y)
 			{
 				putchar(n);
@@ -23,6 +24,7 @@ int main(void)
 				putchar(32);
 			}
 			n = n + 1;
+		}
 	}
 	putchar('\n');
 	return (0);
