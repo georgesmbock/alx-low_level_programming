@@ -20,8 +20,8 @@ int main(void)
 				putchar(y);
 				if (n == 56 && y == 57)
 					continue;
-				putchar(44);
-				putchar(32);
+				putchar(',');
+				putchar(' ');
 			}
 			n = n + 1;
 		}
