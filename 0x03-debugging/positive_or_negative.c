@@ -5,17 +5,12 @@
 /* more headers goes there */
 
 /**
- * main - function that prints positive or negative or zero
+ * positive_or_negative - function that prints positive or negative or zero
  * @i: integer
  * Return: Always 0
  */
 void positive_or_negative(int i)
 {
-	/*int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	*/
 
 	if (i > 0)
 	{
@@ -32,5 +27,4 @@ void positive_or_negative(int i)
 			printf("%d is zero\n", i);
 		}
 	}
-	/*return (0);*/
 }
