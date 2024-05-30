@@ -3,6 +3,6 @@ SRC=school.c main.c
 OBJ=$(SRC:%.c=%.o)
 NAME=school
 all: $(SRC)
-	$(CC) $^ -o school
+	$(CC) $^ -o $(NAME)
 CLEAN:
 	rm -rf *.o
